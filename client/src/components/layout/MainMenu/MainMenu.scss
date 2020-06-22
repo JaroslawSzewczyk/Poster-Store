@@ -1,0 +1,47 @@
+.myBtn {
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  width: 25px;
+  height: 40px;
+
+  .line {
+    position: absolute;
+    width: 3px;
+    height: 70%;
+    background-color: #000;
+    border-radius: 35%;
+    box-shadow: 2px 2px 10px black;
+  }
+
+  .left {
+    bottom: 5%;
+    left: 10%;
+    transition: .5s;
+  }
+  
+  .middle {
+    top: 5%;
+    left: 45%;
+    transition: .5s;
+  }
+
+  .right {
+    bottom: 5%;
+    left: 80%;
+    transition: .5s;
+  }
+
+  &:hover .left{
+    bottom: 25%;
+  }
+
+  &:hover .right{
+    bottom: 25%;
+  }
+
+  &:hover .middle{
+    top: 25%;
+  }
+
+}

@@ -1,12 +1,11 @@
 import React from 'react';
+import MainLayout from './components/layout/MainLayout/MainLayout';
 
 class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        Hello world
-      </div>
+      <MainLayout />
     );
   };
 
